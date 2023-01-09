@@ -3,6 +3,8 @@ To access DynamoDB running locally with the AWS CLI, use the --endpoint-url para
 To configure region, secret key ...
 ```sh
 aws configure
+```
 
 ```sh
 aws dynamodb list-tables --endpoint-url http://localhost:8000
+```
