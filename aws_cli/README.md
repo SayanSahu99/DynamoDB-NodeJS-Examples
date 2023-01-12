@@ -51,6 +51,7 @@ NOTES:-
     - NONE
 </br>
 This will return an object like this one at the end of the query:
+
 ```bash
 "ConsumedCapacity": {
     "TableName": "udemy_ddb_notes_cliTest",
@@ -60,6 +61,7 @@ This will return an object like this one at the end of the query:
     }
 }
 ```
+
 - The `--consistent-read` flag tells the cli to run the command with strong consistency, which doubles the consumed capacity
 - You can specify what order the results are returned in by using one of two flags:
   - `--scan-index-forward` returns results in ascending order by sort key (default)
