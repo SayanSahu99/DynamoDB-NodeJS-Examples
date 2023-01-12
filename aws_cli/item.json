@@ -1,0 +1,6 @@
+{
+    "user_id": {"S": "user123"},
+    "timestamp": {"N": "1526014000"},
+    "content": {"S": "Sample Note...."},
+    "title": {"S": "Sample title..."}
+}

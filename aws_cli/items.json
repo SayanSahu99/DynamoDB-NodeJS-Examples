@@ -1,0 +1,32 @@
+{
+    "td_notes_test": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "user_id": {"S": "1001"},
+                    "timestamp": {"N": "1526015000"},
+                    "content": {"S": "Content 1001"},
+                    "title": {"S": "Title 1001"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "user_id": {"S": "2002"},
+                    "timestamp": {"N": "1526015000"},
+                    "content": {"S": "Content 2002"},
+                    "title": {"S": "Title 2002"}
+                }
+            }
+        },
+        {
+            "DeleteRequest": {
+                "Key": {
+                    "user_id": {"S": "user123"},
+                    "timestamp": {"N": "1526016000"}
+                }
+            }
+        }
+    ]
+}
