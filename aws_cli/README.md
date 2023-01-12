@@ -54,7 +54,7 @@ This will return an object like this one at the end of the query:
 
 ```bash
 "ConsumedCapacity": {
-    "TableName": "udemy_ddb_notes_cliTest",
+    "TableName": "td_notes_test",
     "CapacityUnits": 0.5,
     "Table": {
         "CapacityUnits": 0.5
